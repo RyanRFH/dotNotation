@@ -74,19 +74,40 @@ let x = 1;
 for (let i = 0; i < letters.length; i++) {
     // console.log(letters[letters.length -1 - i]);
     if (letters[letters.length -1 - i] === "a") {
-        console.log(`a is the last vowel at index ${letters[letters.length -1 - i]}`);
+        console.log(`a is the last vowel at index ${letters.length -1 - i}`);
         break;
     } else if (letters[letters.length -1 - i] === "e") {
-        console.log(`e is the last vowel at index ${letters[letters.length -1 - i]}`);
+        console.log(`e is the last vowel at index ${letters.length -1 - i}`);
         break;
     } else if (letters[letters.length -1 - i] === "i") {
-        console.log(`i is the last vowel at index ${letters[letters.length -1 - i]}`);
+        console.log(`i is the last vowel at index ${letters.length -1 - i}`);
         break;
     } else if (letters[letters.length -1 - i] === "o") {
-        console.log(`o is the last vowel at index ${letters[letters.length -1 - i]}`);
+        console.log(`o is the last vowel at index ${letters.length -1 - i}`);
         break;
     } else if (letters[letters.length -1 - i] === "u") {
-        console.log(`u is the last vowel at index ${letters[letters.length -1 - i]}`);
+        console.log(`u is the last vowel at index ${letters.length -1 - i}`);
         break;
     }
+}
+
+//ACTIVITY 8
+let word = "test";
+console.log(word[word.length - 1]);
+console.log(word[0]);
+if (word[0] === word[word.length -1]) {
+    console.log("First and last letter are the same");
+} else {
+    console.log("First and last letter are not the same");
+}
+//ACTIVITY 9
+
+let num5 = 7;
+let num6 = 12;
+if ((num5 + num6)%2 === 0) {
+    console.log("The numbers are even");
+    console.log(num5+num6);
+} else {
+    console.log("The numbers are not even");
+    console.log(num5*num6);
 }
