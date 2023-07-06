@@ -141,6 +141,21 @@ const cofeeShop = {
 };
 console.log(cofeeShop.foodOrder("pizza", "sprite"));
 
+//FOR IN
+for (let x in cofeeShop) {
+    console.log(`Key value = ${cofeeShop[x]}`)
+}
+
+//FOR EACH
+let array = [0, 0, 0, 0];
+let callBackFunction = () => {
+}
+
+console.log(array);
+array.forEach(callBackFunction1 => console.log(callBackFunction1));
+console.log(array);
+
+
 // let matrixArray = [[0]];
 // console.log(matrixArray);
 // for (let i = 0; i<10; i++) {
